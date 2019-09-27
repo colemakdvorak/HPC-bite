@@ -14,7 +14,7 @@ Wrote my first Fortran 77 code.
 Started looking at level 1.
 
 #### Level 1
-- ?ASUM: Implemented for single precision float vector and wrote a short journal.
+[?ASUM](BLAS/l1/asum): 2019/09/26 Implemented for single precision float vector and wrote a short journal.
 
 ## References
 
