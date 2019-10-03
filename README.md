@@ -5,7 +5,7 @@ Although wise elders advise me not to stare at languages on the lower side of th
 Hence this repo has no practical value, it's mostly for learning, reviewing, and entertainment. I just want to appreciate things like BLAS/LAPACK hidden behind numpy, or any libraries/languages that serves as an interface between these programs and users.
 
 
-### Thoughts on Fortran 77 so far
+## Thoughts on Fortran 77 so far
 
 After a week of using my free time on Fortran 77, here are some features I miss from powerful modern languages:
 
@@ -22,7 +22,7 @@ Some things I noticed are missing, but aren't killing me.
 1) Recursion: I've learned that there's a way to hack recursion by adding an argument that represents a subroutine to a subroutine, and then make the subroutine invoke itself by passing itself as an argument. However, scope of most primitive numerical operations are well-defined and iterative, so there weren't a lot of "only if I had recursion" moments.
 
 
-### BLAS
+## BLAS
 Mostly done with level 1.
 
 #### Level 1
