@@ -5,16 +5,58 @@ Although wise elders advise me not to stare at languages on the lower side of th
 Hence this repo has no practical value, it's mostly for learning, reviewing, and entertainment. I just want to appreciate things like BLAS/LAPACK hidden behind numpy, or any libraries/languages that serves as an interface between these programs and users.
 
 
-## Content Logging
-- 00 hello_world
+### Thoughts on Fortran 77 so far
 
-Wrote my first Fortran 77 code.
+After a week of using my free time on Fortran 77, here are some features I miss from powerful modern languages:
+
+1) Generics
+
+I am primarily dealing with REAL type for now but lot of level 1 subroutines in BLAS are identical except for the type of input. Trying to rewrite the same thing for different type is prone to human errors and difficult if done manually.
+
+2) Modules
+
+I haven't figured out a way to properly organize separate subroutines and making them available in modular manner.
+
+3) Asserts
+
+Testing code feels hacky and weird without them.
+
+
+
+Some things I noticed are missing, but aren't killing me.
+
+1) Recursion
+
+I've learned that there's a way to hack recursion by adding an argument that represents a subroutine to a subroutine, and then make the subroutine invoke itself by passing itself as an argument. However, scope of most primitive numerical operations are well-defined and iterative, so there weren't a lot of "only if I had recursion" moments.
+
 
 ### BLAS
-Started looking at level 1.
+Mostly done with level 1.
 
 #### Level 1
 [?ASUM](BLAS/l1/asum): 2019/09/26 Implemented for single precision float vector and wrote a short journal.
+
+[?AXPY](BLAS/l1/axpy): 2019/10/02 Implented for single precision.
+
+[?COPY](BLAS/l1/copy): 2019/10/02 Implented for single precision.
+
+[?DCABS1](BLAS/l1/dcabs1): 2019/10/02 Implented for single precision.
+
+[?DOT](BLAS/l1/dot): 2019/10/02 Implented for single precision.
+
+[?imax](BLAS/l1/imax): 2019/10/02 Implented for single precision.
+
+[?imin](BLAS/l1/imin): 2019/10/02 Implented for single precision.
+
+[?nrm2](BLAS/l1/nrm2): 2019/10/02 Implented for single precision.
+
+[?rot](BLAS/l1/rot): 2019/10/02 Implented for single precision.
+
+[?rotg](BLAS/l1/rotg): 2019/10/02 Added note on `HYPOT` and leaky abstractions.
+
+[?scal](BLAS/l1/scal): 2019/10/02 Implented for single precision.
+
+[?swap](BLAS/l1/swap): 2019/10/02 Implented for single precision.
 
 ## References
 
