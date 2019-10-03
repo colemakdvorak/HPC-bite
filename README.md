@@ -9,25 +9,17 @@ Hence this repo has no practical value, it's mostly for learning, reviewing, and
 
 After a week of using my free time on Fortran 77, here are some features I miss from powerful modern languages:
 
-1) Generics
+1) Generics: I am primarily dealing with REAL type for now but lot of level 1 subroutines in BLAS are identical except for the type of input. Trying to rewrite the same thing for different type is prone to human errors and difficult if done manually.
 
-I am primarily dealing with REAL type for now but lot of level 1 subroutines in BLAS are identical except for the type of input. Trying to rewrite the same thing for different type is prone to human errors and difficult if done manually.
+2) Modules: I haven't figured out a way to properly organize separate subroutines and making them available in modular manner.
 
-2) Modules
-
-I haven't figured out a way to properly organize separate subroutines and making them available in modular manner.
-
-3) Asserts
-
-Testing code feels hacky and weird without them.
+3) Asserts: Testing code feels hacky and weird without them.
 
 
 
 Some things I noticed are missing, but aren't killing me.
 
-1) Recursion
-
-I've learned that there's a way to hack recursion by adding an argument that represents a subroutine to a subroutine, and then make the subroutine invoke itself by passing itself as an argument. However, scope of most primitive numerical operations are well-defined and iterative, so there weren't a lot of "only if I had recursion" moments.
+1) Recursion: I've learned that there's a way to hack recursion by adding an argument that represents a subroutine to a subroutine, and then make the subroutine invoke itself by passing itself as an argument. However, scope of most primitive numerical operations are well-defined and iterative, so there weren't a lot of "only if I had recursion" moments.
 
 
 ### BLAS
