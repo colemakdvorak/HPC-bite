@@ -36,19 +36,19 @@ Mostly done with level 1.
 
 [?DOT](BLAS/l1/dot): 2019/10/02 Implented for single precision.
 
-[?imax](BLAS/l1/imax): 2019/10/02 Implented for single precision.
+[?IMAX](BLAS/l1/imax): 2019/10/02 Implented for single precision.
 
-[?imin](BLAS/l1/imin): 2019/10/02 Implented for single precision.
+[?IMIN](BLAS/l1/imin): 2019/10/02 Implented for single precision.
 
-[?nrm2](BLAS/l1/nrm2): 2019/10/02 Implented for single precision.
+[?NRM2](BLAS/l1/nrm2): 2019/10/02 Implented for single precision.
 
-[?rot](BLAS/l1/rot): 2019/10/02 Implented for single precision.
+[?ROT](BLAS/l1/rot): 2019/10/02 Implented for single precision.
 
-[?rotg](BLAS/l1/rotg): 2019/10/02 Added note on `HYPOT` and leaky abstractions.
+[?ROTG](BLAS/l1/rotg): 2019/10/02 Added note on `HYPOT` and leaky abstractions.
 
-[?scal](BLAS/l1/scal): 2019/10/02 Implented for single precision.
+[?SCAL](BLAS/l1/scal): 2019/10/02 Implented for single precision.
 
-[?swap](BLAS/l1/swap): 2019/10/02 Implented for single precision.
+[?SWAP](BLAS/l1/swap): 2019/10/02 Implented for single precision.
 
 ## References
 
