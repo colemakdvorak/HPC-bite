@@ -19,4 +19,5 @@ Started looking at level 1.
 ## References
 
 [Fortran 77 Stanford Tutorial](https://web.stanford.edu/class/me200c/tutorial_77/)
+
 [Intel Math Kernel documentation on BLAS](https://software.intel.com/en-us/mkl-developer-reference-fortran-overview)
