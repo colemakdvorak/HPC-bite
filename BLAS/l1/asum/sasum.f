@@ -3,6 +3,7 @@ c     Absolute sum of a float array.
 c     
 c
       REAL FUNCTION SASUM(N, SX, STEP)
+      IMPLICIT none
 c     input variables
       INTEGER N, STEP
       REAL SX(*)
@@ -46,6 +47,7 @@ c
 c     Same function but with no loop unrolling implemented
 c
       REAL FUNCTION SASUM_NU(N, SX, STEP)
+      IMPLICIT none
 c     input variables
       INTEGER N, STEP
       REAL SX(*)
